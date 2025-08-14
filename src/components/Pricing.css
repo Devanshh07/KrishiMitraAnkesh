@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "coolvita";
+    src: url("../assets/Coolvetica.otf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "moninger";
+    src: url("../assets/moninger-regular.otf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+#title{
+    font-family: "moninger";
+}
+#ps{
+    
+    font-family: "coolvita";
+}

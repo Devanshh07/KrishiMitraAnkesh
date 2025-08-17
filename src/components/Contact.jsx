@@ -44,14 +44,14 @@ function Contact() {
         <a href="https://facebook.com" target="_blank" className="text-sky-400 hover:text-sky-700 font-semibold">
           Youtube
         </a>
-        <a href="https://twitter.com" target="_blank" className="text-sky-400 hover:text-sky-700 font-semibold">
+        <a href="https://www.facebook.com/share/1AagFgvAAX/" target="_blank" className="text-sky-400 hover:text-sky-700 font-semibold">
           FaceBook
         </a>
-        <a href="https://instagram.com" target="_blank" className="text-sky-400 hover:text-sky-700 font-semibold">
+        <a href="https://www.instagram.com/ankesh_rahangdale?utm_source=qr&igsh=MTE5c3ZjMmw0dDVzdA==" target="_blank" className="text-sky-400 hover:text-sky-700 font-semibold">
           Instagram
         </a>
         <a
-          href="https://wa.me/918815383639"
+          href="https://wa.me/919752111646"
           target="_blank"
           rel="noopener noreferrer"
           className="text-sky-400 hover:text-sky-700 font-semibold transition-all duration-300 hover:underline"

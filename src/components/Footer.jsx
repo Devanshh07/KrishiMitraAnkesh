@@ -1,4 +1,7 @@
+
 import { resourcesLinks, platformLinks, communityLinks } from "../constants";
+import { Link } from "react-router-dom";
+import './footer.css'
 const Footer = () => {
   return (
     <footer className="mt-20 border-t py-10 border-neutral-700">
@@ -49,7 +52,11 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-    </footer>
+      <br />
+      <a id="" className=" flex justify-center text-center mt-5 text-blue-300 gap-2  mr-7 font-CursiveHigh">
+Developed & Designed by <span id="cur" className="text-white" > <Link to={"https://www.linkedin.com/in/devanshbaghel1/"}>Devansh Baghel</Link></span>
+</a>
+  </footer>
   );
 };
 

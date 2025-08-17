@@ -5,6 +5,12 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
+import fert from '../assets/fert-1.webp'
+import fert1 from '../assets/fert2.webp'
+import fert2 from '../assets/fert3.webp'
+import fert5 from '../assets/fert5.webp'
+import fert4 from '../assets/rt4.webp'
+
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
 import user3 from "../assets/profile-pictures/user3.jpg";
@@ -13,13 +19,13 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "About us", href: "#" },
-  { label: "Products", href: "#" },
-  { label: "Gallary", href: "#" },
-  { label: "Reviews", href: "#" },
-  { label: "Farmers", href: "#" },
-  
+  { label: "Plants", href: "/plants" },
+  { label: "Natural Farming", href: "/natural-farming" },
+  { label: "Products", href: "/products" },
+ 
+  { label: "Farmers", href: "/farmers" },
 ];
+
 export const testimonials = [
   {
     user: "Rajesh Kumar",
@@ -114,60 +120,181 @@ export const checklistItems = [
       "Connect with other farmers and share your farming plans in just minutes.",
   },
 ];
-
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
-    features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
-    ],
+    image: fert1,
+    price: "₹499",
   },
   {
-    title: "Pro",
-    price: "$10",
-    features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
-    ],
+    image: fert
+    ,price: "₹899",
   },
   {
-    title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
+    image: fert2,
+    price: "₹499",
+  },,
+  {
+    image: fert5,
+    price: "₹1,299",
   },
+  {
+    image: fert4,
+    price: "₹199",
+  }
+];
+export const farmersData = [
+  {
+    name: "Ravi Kumar",
+    title: "Organic Farmer",
+    location: "Madhya Pradesh, India",
+    image: "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    name: "Sneha Patel",
+    title: "Dairy Farmer",
+    location: "Gujarat, India",
+    image: "https://randomuser.me/api/portraits/women/45.jpg"
+  },
+  {
+    name: "Ajay Singh",
+    title: "Rice Farmer",
+    location: "Punjab, India",
+    image: "https://randomuser.me/api/portraits/men/67.jpg"
+  },
+  {
+    name: "Priya Sharma",
+    title: "Vegetable Grower",
+    location: "Kerala, India",
+    image: "https://randomuser.me/api/portraits/women/21.jpg"
+  },
+  {
+    name: "Manoj Verma",
+    title: "Fruit Farmer",
+    location: "Himachal Pradesh, India",
+    image: "https://randomuser.me/api/portraits/men/8.jpg"
+  },
+  {
+    name: "Aarti Joshi",
+    title: "Floriculturist",
+    location: "Uttarakhand, India",
+    image: "https://randomuser.me/api/portraits/women/14.jpg"
+  },
+  {
+    name: "Karan Mehta",
+    title: "Livestock Farmer",
+    location: "Rajasthan, India",
+    image: "https://randomuser.me/api/portraits/men/41.jpg"
+  },
+  {
+    name: "Neha Gupta",
+    title: "Poultry Farmer",
+    location: "Tamil Nadu, India",
+    image: "https://randomuser.me/api/portraits/women/33.jpg"
+  },
+  {
+    name: "Rajesh Yadav",
+    title: "Sugarcane Farmer",
+    location: "Bihar, India",
+    image: "https://randomuser.me/api/portraits/men/13.jpg"
+  },
+  {
+    name: "Sonal Kapoor",
+    title: "Tea Plantation Farmer",
+    location: "Assam, India",
+    image: "https://randomuser.me/api/portraits/women/52.jpg"
+  },
+  {
+    name: "Vikram Sethi",
+    title: "Wheat Farmer",
+    location: "Haryana, India",
+    image: "https://randomuser.me/api/portraits/men/25.jpg"
+  },
+  {
+    name: "Divya Reddy",
+    title: "Aquaculture Farmer",
+    location: "Andhra Pradesh, India",
+    image: "https://randomuser.me/api/portraits/women/16.jpg"
+  },
+  {
+    name: "Anil Deshmukh",
+    title: "Cotton Farmer",
+    location: "Maharashtra, India",
+    image: "https://randomuser.me/api/portraits/men/55.jpg"
+  },
+  {
+    name: "Pooja Nair",
+    title: "Spice Farmer",
+    location: "Kerala, India",
+    image: "https://randomuser.me/api/portraits/women/24.jpg"
+  },
+  {
+    name: "Suresh Babu",
+    title: "Vegetable Farmer",
+    location: "Karnataka, India",
+    image: "https://randomuser.me/api/portraits/men/19.jpg"
+  }
+];
+export const plantsData = [
+  {
+    name: "G9 Banana",
+    title: "Tissue Culture Fruit",
+    description: "Highly disease-resistant and fast-growing banana variety, micropropagated for superior yields.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Bananas.jpg/320px-Bananas.jpg"
+  },
+  {
+    name: "Grand Nain Potato",
+    title: "Lab-Enhanced Vegetable",
+    description: "A genetically uniform potato developed via tissue culture, ideal for robust productivity.",
+    image: "https://images.unsplash.com/photo-1501870190088-cd3e92ae0ea3?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    name: "Jatropha curcas",
+    title: "Medicinal Plant",
+    description: "Lab-grown for biofuel and medicinal uses, propagated for uniformity and virus-free stocks.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Jatropha_curcas_01.JPG"
+  },
+  {
+    name: "Gladiolus Hybrid",
+    title: "Ornamental Flower",
+    description: "Bred in Indian labs for vibrant colors and longer shelf-life, popular in landscaping and floriculture.",
+    image: "https://images.unsplash.com/photo-1519864607721-c1e1b6d83d56?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    name: "Teak (Tectona grandis)",
+    title: "Forestry Crop",
+    description: "Tissue culture teak grown for top-grade timber and rapid, disease-resistant growth.",
+    image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    name: "Orchid Varieties",
+    title: "Lab-Grown Exotic",
+    description: "Indian labs produce disease-free, vibrant orchids for home and commercial use.",
+    image: "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    name: "Philodendron",
+    title: "Interior Plant",
+    description: "Micropropagated plant selected for ornamental beauty, air purification, and resilience.",
+    image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80"
+  }
+  
 ];
 
+
+
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Product Documentation" },
+
   { href: "#", text: "Farming Tutorials" },
-  { href: "#", text: "Service Guide" },
   { href: "#", text: "Farmer Community Forums" },
 ];
 
 export const platformLinks = [
   { href: "#", text: "Features" },
   { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
 ];
 
 export const communityLinks = [
   { href: "#", text: "Farmer Gatherings" },
   { href: "#", text: "Agriculture Fairs" },
-  { href: "#", text: "Workshops & Training" },
-  { href: "#", text: "Crop Competitions" },
-  { href: "#", text: "Farming Job Opportunities" },
+
 ];

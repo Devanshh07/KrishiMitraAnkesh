@@ -5,6 +5,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @font-face {
     font-family: "coolvita";
     src: url("../assets/Coolvetica.otf") format(truetype);
@@ -12,7 +14,12 @@
     font-style: normal;
 }
 
-
+@font-face {
+    font-family: "CursiveHigh";
+    src: url("../assets/HighEmpathy.otf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
 :root {
   font-family: "Poppins", sans-serif;
   color-scheme: dark;
@@ -22,4 +29,7 @@
 }
 #bold{
   font-family: "coolvita";
+}
+.cur{
+  font-family: "CursiveHigh";
 }

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "CursiveHigh";
+    src: url("../assets/HighEmpathy.otf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+#cur{
+  font-family: "CursiveHigh";
+}

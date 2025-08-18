@@ -1,10 +1,6 @@
-import video1 from "../assets/video1.mp4";
-import video2 from "../assets/video2.mp4";
-import farm1 from "../assets/farm1.mp4"
 import farm2 from "../assets/farm2.mp4"
-import farm3 from "../assets/farm3.mp4"
 import farm4 from "../assets/farm4.mp4"
-import farm5 from "../assets/farm5.mp4"
+
 
 const HeroSection = () => {
   return (

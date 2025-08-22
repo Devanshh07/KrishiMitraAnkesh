@@ -12,6 +12,7 @@ import AutoSlideshow from "./components/ImageScrolling";
 import Farmers from "./components/Farmers";
 import Plants from "./components/Plants";
 import NaturalFarming from "./components/NaturalFarming";
+import Gallery from "./components/gallery";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
                 <Testimonials />
                 <Contact/>
                 <Footer />
+                
               </>
             } 
           />
@@ -38,8 +40,7 @@ const App = () => {
           <Route path="/farmers" element={<Farmers />} />
           <Route path="/plants" element={<Plants />} />
           <Route path="/natural-farming" element={<NaturalFarming />} />
-          
-         
+          <Route path="/gallery" element ={<Gallery/>}/>
         </Routes>
       </div>
     </Router>

@@ -22,7 +22,7 @@ export const navItems = [
   { label: "Plants", href: "/plants" },
   { label: "Natural Farming", href: "/natural-farming" },
   { label: "Products", href: "/products" },
- 
+  { label: "Gallery", href: "/gallery" },
   { label: "Farmers", href: "/farmers" },
 ];
 

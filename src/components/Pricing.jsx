@@ -1,6 +1,8 @@
 import { pricingOptions } from "../constants";
 import './Pricing.css'
-
+import SplitText from "./SplitText";
+import { motion } from "motion/react"
+import { useInView } from "motion/react"
 const Pricing = () => {
   return (
     <div className="mt-10">
@@ -11,16 +13,16 @@ const Pricing = () => {
         {pricingOptions.map((option, index) => (
           <div key={index} className="w-full sm:w-1/2 lg:w-1/5 p-2">
             <div className="p-10 border border-neutral-700 rounded-xl flex flex-col items-center">
-              
+
               {/* Image at top */}
-              <img 
+              <img
                 src={option.image}
-                alt="" 
+                alt=""
                 className="w-32 h-36 object-cover rounded-lg mb-6 shadow-md"
               />
 
               {/* Price Tag */}
-              <div className =" text-green-700 px-6 py-3 rounded-md mb-8">
+              <div className=" text-green-700 px-6 py-3 rounded-md mb-8">
                 <span className="text-3xl font-bold">{option.price}</span>
               </div>
 
